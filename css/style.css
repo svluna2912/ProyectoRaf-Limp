@@ -230,7 +230,7 @@ width: 100%;
 .datos {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 40%;
     height: auto;
     align-items: center;
     background-color: grey;
@@ -247,7 +247,7 @@ width: 100%;
     font-size: 20px;
 }
 .formulario {
-    width: 80%;
+    width: 60%;
     padding: 30px 30px;
     margin-left: 30px;
 }
