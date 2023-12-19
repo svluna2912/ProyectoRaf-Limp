@@ -288,6 +288,12 @@ width: 100%;
 
 }
 
+@media all and (max-width:512px) {
+    .navbar {
+        gap: 10px;
+    }
+}
+
 @media all and (max-width:400px) {
 
     .footer {
@@ -346,12 +352,13 @@ width: 100%;
     }
 }
 
-@media all and (max-width:565px) {
+@media all and (max-width:570px) {
     .datos {
         width: auto;
     }
     .mapa {
         width: auto;
+        margin-left: 150px;
     }
     .formulario {
         margin-bottom: 60px;
