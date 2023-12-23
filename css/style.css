@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .layout {
     display: grid;
     width: 100%;
@@ -43,14 +44,18 @@ header {
     text-decoration: none;
     color: rgb(47, 66, 175);
     font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
-h1 {
+.navbar li a:hover {
+    color: aliceblue;
+}
+.titulo {
     margin: 10px 10px;
     font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: rgb(221, 62, 14);
     background-color: rgb(47, 66, 175);
+    text-align: center;
 }
 .portada {
     display: flex;
@@ -81,7 +86,7 @@ h1 {
 .container-cards figure figcaption {
     text-align: center;
     font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .imagen img:hover{
     transform: scale(1.5);
@@ -91,7 +96,7 @@ h2 {
     text-align: center;
     font-size: 30px;
     color: rgb(221, 62, 14);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .seccion-tres {
     display: flex;
@@ -101,7 +106,7 @@ h2 {
 }
 .seccion-tres p {
     font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: justify;
     padding: 30px 30px;
 }
@@ -117,15 +122,15 @@ footer {
     list-style: none;
     color: rgb(47, 66, 175);
     font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
     gap: 10px;
     padding-left: 0px;
     margin-top: 10px;
 }
-h3 {
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+h3{
     color: rgb(47, 66, 175);
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;  
 }
 .redes {
     display: flex;
@@ -133,13 +138,6 @@ h3 {
     margin-top: 20px;
     list-style: none;
     gap: 30px; 
-}
-
-h1 {
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    margin: 30px;
 }
 .section-servicios {
     width: 95%;
@@ -156,7 +154,7 @@ h1 {
 }
 .descripcion p {
     font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: justify;
 }
 .nosotros {
@@ -175,7 +173,7 @@ h1 {
 .nosotros-1 p {
     background-color: rgba(0, 0, 0, 0.301);
     font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: black ;
     text-align: justify;
     padding: 30px 30px;
@@ -185,7 +183,7 @@ h1 {
     font-size: 30px;
     height: auto;
     margin: 30px 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: rgb(47, 66, 175) ;
 }
 .nosotros-2 {
@@ -202,7 +200,7 @@ width: 100%;
 }
 .objetivos p {
     text-align: justify;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 25px;
     color: black ;
 }
@@ -212,7 +210,7 @@ width: 100%;
     }
 .trayectoria p {
     text-align: justify;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 25px;
     color: black;
 }    
@@ -246,7 +244,7 @@ width: 100%;
 .datos li {
     margin: 20px 20px;
     list-style: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: rgb(47, 66, 175) ; 
     font-size: 20px;
 }
@@ -270,7 +268,7 @@ width: 100%;
     gap: 30px;
 }
 .politicas p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 25px;
     text-align: justify;
 }
