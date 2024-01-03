@@ -1,0 +1,23 @@
+h1 {
+    margin: 10px 10px;
+    font-size: 30px;
+    color: $color-titulosPrincipales;
+    font-family: $tipografia;
+    background-color: $backgroundColor-titulos;
+    text-align: center;
+}
+.section-servicios {
+    width: 95%;
+    margin: 30px;
+    @include flex (row, center, center,30px);
+}
+.descripcion {
+	align-items: center; 
+	padding: 20px; 
+	padding-right: 40px; 
+	p { 
+		font-size: 25px; 
+		font-family: $tipografia;
+		text-align: justify;
+      }
+}

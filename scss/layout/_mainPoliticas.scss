@@ -1,0 +1,15 @@
+.politicas{ 
+	display: flex; 
+	width: 95%; 
+	flex-direction: column; 
+	p {
+		font-family: $tipografia;
+		font-size: 25px; 
+		text-align: justify;
+    }
+}
+.privacidad{ 
+	width: 100%; 
+    @include flex (column, center, center, 30px);
+	margin: 30px 30px; 
+} 

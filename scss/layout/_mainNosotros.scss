@@ -1,0 +1,65 @@
+h1 {
+    margin: 10px 10px;
+    font-size: 30px;
+    color: $color-titulosPrincipales;
+    font-family: $tipografia;
+    background-color: $backgroundColor-titulos;
+    text-align: center;
+}
+.nosotros{ 
+	background-image: url(../assets/limpieza-vidrios.jpg);
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover; 
+}    
+.nosotros-1{ 
+    display: flex;
+    flex-direction: column;
+	width: 90%;
+	height: auto;
+	margin: 30px 30px; 
+	p{ 
+		background-color: rgba(0, 0, 0, 0.301); 
+		font-size: 25px; 
+		font-family: $tipografia;
+		color: black; 
+		text-align: justify; 
+		padding: 30px 30px;
+    } 
+}
+.lista{ 
+	li{ 
+		width: 90%; 
+		font-size: 30px; 
+		height: auto; 
+		margin: 30px 30px; 
+		font-family: $tipografia;
+		color: $backgroundColor-titulos;
+    }
+}
+.nosotros-2 {
+    @include flex (row, none, none, 30px); 
+	width: 90%;
+	height: auto; 
+	margin: 30px 30px; 
+} 
+.objetivos{
+	background-color: rgba(0, 0, 0, 0.301); 
+	width: 100%; 
+	p{ 
+		text-align: justify; 
+		font-family: $tipografia; 
+		font-size: 25px; 
+		color: black;
+    }
+} 
+.trayectoria{ 
+	background-color: rgba(0, 0, 0, 0.301); 
+	width: 100%; 
+	p{
+		text-align: justify; 
+		font-family: $tipografia;
+		font-size: 25px; 
+		color: black;
+    }
+} 

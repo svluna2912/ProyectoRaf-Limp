@@ -1,0 +1,63 @@
+h1 {
+    margin: 10px 10px;
+    font-size: 30px;
+    color: $color-titulosPrincipales;
+    font-family: $tipografia;
+    background-color: $backgroundColor-titulos;
+    text-align: center;
+}
+.portada{
+    width: 100%;
+        .imagen-portada {
+            @include flex (column, none, center, none);
+            width: 100%;
+            img {
+                display: flex;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+}
+.seccion-dos{ 
+	width: 100%; 
+	@include flex (column, center, center, none);
+} 
+.container-cards{  
+	width: 80%; 
+	@include flex (row, space-between, none, 20px); 
+	object-fit: cover;
+	figure { 
+		figcaption { 
+			text-align: center; 
+			font-size: 25px; 
+			font-family: $tipografia;
+			color: $backgroundColor-titulos; 
+        }
+    }
+}
+.imagen{ 
+	img{ 
+		&:hover {
+			transform: scale(1.5);
+        } 
+    }
+}
+h2 {
+	margin: 10px 10px; 
+	text-align: center; 
+	font-size: 30px; 
+	color: $backgroundColor-titulos;
+	font-family: $tipografia;
+} 
+.seccion-tres{ 
+	display: flex; 
+	width: 90%; 
+	height: auto; 
+	margin: 30px 30px; 
+	p{ 
+		font-size: 25px; 
+		font-family: $tipografia;
+		text-align: justify; 
+		padding: 30px 30px;
+    }
+}

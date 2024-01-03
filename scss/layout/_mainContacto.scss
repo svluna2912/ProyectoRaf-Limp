@@ -1,0 +1,46 @@
+h1{
+        margin: 10px 10px;
+        font-size: 30px;
+        color: $color-titulosPrincipales;
+        font-family: $tipografia;
+        background-color: $backgroundColor-titulos;
+        text-align: center;
+}
+.ubicacion{ 
+	width: 95%; 
+	margin: 30px;
+	@include flex (row, center, center, 30px);
+}
+.mapa{
+	width: 80%; 
+	height: auto;
+	margin: 30px 30px; 
+	object-fit: contain; 
+	width: auto; 
+	margin-left: 150px; 
+}
+.datos{
+	@include flex (column, none, center, none);
+	width: 40%; 
+	height: auto; 
+	background-color: grey; 
+	margin-right: 100px;
+	margin-top: 30px;
+	h3{ 
+		margin-top: 20px;
+        color: $backgroundColor-titulos;
+    }
+	li{ 
+		margin: 20px 20px; 
+		list-style: none; 
+		font-family: $tipografia;
+		color: $backgroundColor-titulos; 
+		font-size: 20px;
+    }
+}         
+.formulario{
+	width: 60%; 
+	padding: 30px 30px; 
+	margin-left: 30px; 
+	margin-bottom: 60px;
+}

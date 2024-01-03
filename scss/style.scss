@@ -1,0 +1,46 @@
+@import "./utilities/variables";
+@import "./utilities/mixins";
+@import "./components/tipografias";
+@import "./base/reset";
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/mainContacto";
+@import "./layout/mainIndex";
+@import "./layout/mainNosotros";
+@import "./layout/mainPoliticas";
+@import "./layout/mainServicios";
+@import "./layout/mediaQ/media1275";
+@import "./layout/mediaQ/media900";
+@import "./layout/mediaQ/media780";
+@import "./layout/mediaQ/media670";
+@import "./layout/mediaQ/media650";
+@import "./layout/mediaQ/media570";
+@import "./layout/mediaQ/media512";
+@import "./layout/mediaQ/media400";
+@import "./layout/mediaQ/media400";
+
+.layout {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 150px 1fr 150px;
+}
+.layout header {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    background-color: grey;
+}
+.layout main {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    background-color: gainsboro;
+}
+.layout footer {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    background-color: grey;
+}
+
+
+

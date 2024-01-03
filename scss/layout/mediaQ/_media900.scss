@@ -1,0 +1,12 @@
+@media all and (max-width:900px) {
+    .ubicacion {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        height: 50%;
+        object-fit: cover;
+    }
+    .datos {
+        margin-top: 30px;
+    }
+}
